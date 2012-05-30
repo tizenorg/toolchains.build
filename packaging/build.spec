@@ -39,6 +39,7 @@ Release:        1
 # osc submitreq create -m"current svn snapshot." openSUSE:Tools build openSUSE:Factory
 Source:         build-%{version}.tar.gz
 Source1:        tizen-1.0.conf
+Source1001: packaging/build.manifest 
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 BuildArch:      noarch
 # Manual requires to avoid hard require to bash-static
@@ -58,6 +59,7 @@ chroot environment.
 %setup -q
 
 %build
+cp %{SOURCE1001} .
 
 %install
 make DESTDIR=$RPM_BUILD_ROOT install
@@ -66,6 +68,7 @@ cd %{buildroot}%{_prefix}/lib/build/configs/
 ln -s tizen-1.0.conf default.conf
 
 %files
+%manifest build.manifest
 %defattr(-,root,root)
 %doc README
 %{_bindir}/build
