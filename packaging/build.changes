@@ -1,0 +1,23 @@
+* Mon Jul 09 2012 UkJung Kim <ujkim@samsung.com> - 2011.01.10a
+- Ignore pkg-config from config file lists
+
+* Wed Jan 19 2011 Jian-feng Ding <jian-feng.ding@intel.com> - 2011.01.10a
+- Update to 2011.01.10 snapshot, with three extra commits
+  git HEAD: 585759875f7d225b6fc8f3e76cdffe955825dab4
+
+* Wed Dec 01 2010 Fathi Boudra <fathi.boudra@nokia.com> - 2010.11.24
+- Update to 2010.11.24: add workaround for Ubuntu 10 builds (BMC#10713)
+
+* Tue Aug 10 2010 Jian-feng Ding <jian-feng.ding@intel.com> 2010.08.04
+- Update to 2010.08.04 snapshot
+
+* Fri Apr 16 2010 Yi Yang <yi.y.yang@intel.com> - 2010.04.15
+- Update to 2010.04.15
+
+* Fri Jan 15 2010 Anas Nashif <anas.nashif@intel.com> - 2010.01.13
+- Update to  2010.01.13 snapshot
+- Added moblin config file
+
+
+* Mon Aug 10 2009 Anas Nashif <anas.nashif@intel.com> - 2009.07.27
+- Update to 2009.07.27 snapshot
