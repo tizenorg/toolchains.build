@@ -134,6 +134,7 @@ my %STAG = (
 	"ENHANCESFLAGS"	=> 1161,
 	"PRIORITY"	=> 1162,
 	"CVSID"		=> 1163,
+        "VCS"           => 5034,
 );
 
 # do not mix numeric tags with symbolic tags.
@@ -311,7 +312,7 @@ sub rpmq_add_flagsvers {
 }
 
 my @preamble = qw{
-  Name Version Release Epoch Summary Copyright License Distribution
+  Name Version Release VCS Epoch Summary Copyright License Distribution
   Disturl Vendor Group Packager Url Icon Prefixes
 };
 
